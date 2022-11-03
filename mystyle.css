@@ -1,0 +1,96 @@
+/*This is my first CSS Sheet*/
+div {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-weight: bolder;
+    color: darkblue;
+}
+
+h2 {
+    color: lightslategray;
+}
+pre {
+    font-size: x-large;
+    font-weight: bolder;
+}
+a {
+    color: brown;
+    font-style: italic;
+    font-variant: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+footer {
+    background-color: darkgray;
+    display: block;
+}
+p { 
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.code1 {
+    text-align: center;
+    color: mediumblue;
+    
+}
+
+.code2 {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: darkslategrey;
+    text-align: right;
+}
+.code3 {
+    text-align: right;
+}
+form {
+    font-size: large;
+    font-weight: bold;
+}
+h4 {
+    font-size: x-large;
+    font-weight: bolder;
+}
+.code4 {
+    text-align: right;
+    font-size: large;
+    border: 3px dotted lightslategray ;
+    margin: 5px;
+    overflow: hidden;
+}
+table {
+    width: 60%;
+}
+.code5 {
+    text-align: left;
+    font-size: large;
+    color: darkblue;
+}
+list {
+    list-style:circle;
+    font-size: medium;
+    font-weight:800;
+    
+}
+.code6{
+    font-size:medium;
+    font-weight: normal;
+
+}
+a:hover{
+    background-color: gray;
+    color: white;
+}
+
+.code7 {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media screen and (width:414px) {
+    border: :blank;
+}
